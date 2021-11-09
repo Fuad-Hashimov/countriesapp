@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <div className={classes.header_content}>
-        <h2 className={classes.header_content_logo}>navbar</h2>
+        <Link to='/' className={classes.header_content_logo}>navbar</Link>
         <nav
           className={`${classes.header_content_nav} ${
             menuOpen ? classes.isMenu : ""
