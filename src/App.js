@@ -1,18 +1,15 @@
 import Layout from "./Components/Layout";
-
 import Home from "./pages/Home";
 import PageOne from "./pages/PageOne";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageCTA from "./pages/PageCTA";
-import {Route,Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <Layout>
-
       <Switch>
-
         <Route path="/" exact>
           <Home />
         </Route>
@@ -28,11 +25,8 @@ function App() {
         <Route path="/page-cta">
           <PageCTA />
         </Route>
-
       </Switch>
-
     </Layout>
   );
 }
-
 export default App;
