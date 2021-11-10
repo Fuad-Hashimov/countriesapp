@@ -1,6 +1,7 @@
 @import "./../styles/variables.scss";
 
 .header {
+  
   background: $dark;
   width: 100%;
   height: $headerHeight;
@@ -25,7 +26,7 @@
       font-size: 2rem;
       font-weight: bold;
       text-decoration: none;
-      color: $light;
+      color: rgb(53, 137, 216);
     }
 
     &_nav {
