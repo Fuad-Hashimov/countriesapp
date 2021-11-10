@@ -27,8 +27,14 @@ function Home() {
   return (
     <>
       <h1>Home FUad</h1>
-      
-      <MediaCard country={country} />
+
+      <main>
+        <div className="container">
+          <div className="row">
+            <MediaCard className='col-4' country={country} />
+          </div>
+        </div>
+      </main>
     </>
   );
 }
